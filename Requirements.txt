@@ -1,0 +1,37 @@
+# =========================================================
+# 🎯 AI Image Tool Recommender - Requirements
+# =========================================================
+
+# 🔑 Core dependency
+# OpenAI SDK is used to connect with OpenRouter API
+# (https://openrouter.ai)
+# You will use your OpenRouter API key with this library
+openai>=1.0.0
+
+
+# =========================================================
+# 📌 Setup Instructions (Important)
+# =========================================================
+# 1. Go to: https://openrouter.ai
+# 2. Sign up for a FREE account
+# 3. Generate your API key: https://openrouter.ai/keys
+# 4. Paste the key inside your Python script:
+#
+#    API_KEY = "your_openrouter_api_key"
+#
+# =========================================================
+
+
+# =========================================================
+# 🧠 Supported AI Image Tools (Inside the Project)
+# =========================================================
+# This project analyzes prompts and recommends:
+#
+# 🎨 Midjourney       → Artistic, cinematic, fantasy
+# 🖼️ DALL·E 3        → Photorealistic, prompt accuracy
+# ⚡ Stable Diffusion → Custom models, technical control
+# 🎯 Canva AI         → Social media, marketing designs
+# 🔥 Adobe Firefly    → Commercial-safe, professional
+# ⚙️ Leonardo.ai      → Game assets, characters
+#
+# =========================================================
